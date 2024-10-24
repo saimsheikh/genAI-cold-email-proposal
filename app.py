@@ -13,7 +13,7 @@ def create_streamlit_app(clean_text):
     It works best with comprehensive job postings from major platforms.
     """)
     
-    st.sidebar.markdown("[GitHub Repository](https://github.com/your-username/your-repo) :star:")  # Replace with your GitHub link
+    st.sidebar.markdown("[GitHub Repository](https://github.com/saimsheikh/genAI-cold-email-proposal) :star:")  # Replace with your GitHub link
 
     # Main input area
     st.markdown("""
@@ -22,7 +22,7 @@ def create_streamlit_app(clean_text):
     - Ensure the job description is detailed for best results.
     """)
 
-    url_input = st.text_input("Enter a URL:", value="https://jobs.nike.com/job/R-33460")
+    url_input = st.text_input("Enter a URL:", value="")
     submit_button = st.button("Generate Email")
 
     if submit_button:
