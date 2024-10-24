@@ -25,7 +25,7 @@ The Cold Mail Generator is a web application that helps users generate personali
 
    ```bash
    git clone https://github.com/saimsheikh/genAI-cold-email-proposal
-   cd your-repo
+   cd genAI-cold-email-proposal
    ```
 
 2. Install the required packages:

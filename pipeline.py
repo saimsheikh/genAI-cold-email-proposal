@@ -7,7 +7,7 @@ import re
 
 default_llm = ChatGroq(
     model="llama-3.1-70b-versatile",
-    temperature=0,
+    temperature=1,
     groq_api_key= os.getenv('groq_api_key')
 )
 
