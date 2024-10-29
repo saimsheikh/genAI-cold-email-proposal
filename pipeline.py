@@ -63,7 +63,7 @@ def write_mail( job, links,llm=default_llm):
             Your job is to write a cold email to the client regarding the job mentioned above describing the capability of devupix 
             in fulfilling their needs.
             Also add the most relevant ones from the following links to showcase devupix's portfolio: {link_list}
-            Remember you are Mohan, BDE at devupix. 
+            Remember you are Saim, BDE at devupix. 
             Do not provide a preamble.
             ### EMAIL (NO PREAMBLE):
 
